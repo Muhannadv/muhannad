@@ -6,10 +6,10 @@ body {
 }
 
 .box {
-  width: 320px;
+  width: 340px;
   background-color: white;
   padding: 25px;
-  margin: 100px auto;
+  margin: 60px auto;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
   text-align: center;
@@ -37,6 +37,7 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
+  margin-top: 10px;
 }
 
 .box button:hover {
@@ -61,4 +62,38 @@ body {
 
 .switch-text a:hover {
   text-decoration: underline;
+}
+
+.restaurant-list {
+  margin: 20px 0;
+}
+
+.restaurant-btn {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.restaurant-btn:hover {
+  background-color: #0056b3;
+}
+
+.menu-item {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
 }
